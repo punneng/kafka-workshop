@@ -3,14 +3,17 @@
 
 create directory
 > $ mkdir ~/workshop/
+
 > $ cd ~/workshop/
 
 download kafka
 > $ curl -O https://www.apache.org/dyn/closer.cgi?path=/kafka/1.1.0/kafka_2.12-1.1.0.tgz
+
 > $ tar xzf kafka_2.12-1.1.0.tgz
 
 checkout workshop resource
-> $ git clone ??????
+> $ git clone https://github.com/punneng/kafka-workshop.git
+
 > $ cd workshop
 
 start kafka
