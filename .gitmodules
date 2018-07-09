@@ -11,3 +11,7 @@
 	path = try/json-deserializer
 	url = https://github.com/punneng/nodejs-kafka-example
 	branch = try/json-deserializer
+[submodule "try/consumer-seek"]
+	path = try/consumer-seek
+	url = https://github.com/punneng/nodejs-kafka-example
+	branch = try/consumer-seek
