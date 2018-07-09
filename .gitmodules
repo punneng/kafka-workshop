@@ -7,3 +7,7 @@
 [submodule "nodejs-kafka-example"]
 	path = nodejs-kafka-example
 	url = https://github.com/punneng/nodejs-kafka-example
+[submodule "try/json-deserializer"]
+	path = try/json-deserializer
+	url = https://github.com/punneng/nodejs-kafka-example
+	branch = try/json-deserializer
