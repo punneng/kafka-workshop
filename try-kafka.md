@@ -1,30 +1,32 @@
 # Try kafka
 ## SHELL 1
 
+install jre
+> $ brew tap caskroom/versions
+
+> $ brew cask install java8
+
 create directory
 > $ mkdir ~/workshop/
 
 > $ cd ~/workshop/
 
 download kafka
-> $ curl -O https://www.apache.org/dyn/closer.cgi?path=/kafka/1.1.0/kafka_2.12-1.1.0.tgz
+> $ curl -O http://www-eu.apache.org/dist/kafka/1.1.0/kafka_2.12-1.1.0.tgz
 
 > $ tar xzf kafka_2.12-1.1.0.tgz
 
 checkout workshop resource
 > $ git clone https://github.com/punneng/kafka-workshop.git
 
-> $ cd workshop
-
-start kafka
-> $ docker-compose up
+> $ cd kafka-workshop
 
 ---------------------------------------------
 ## SHELL 2
 NEW SHELL(command + t)
 > $ cd ~/workshop/kafka_2.12-1.1.0/
 
-test
+test command
 > $ bin/kafka-topics.sh
 
 start zookeeper
