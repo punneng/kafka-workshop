@@ -1,0 +1,9 @@
+[submodule "echo-kafka-producer-example"]
+	path = echo-kafka-producer-example
+	url = https://github.com/punneng/echo-kafka-producer-example
+[submodule "nodejs-kafka-example"]
+	path = nodejs-kafka-example
+	url = https://github.com/punneng/nodejs-kafka-example
+[submodule "kotlin-kafka-consumer-example"]
+	path = kotlin-kafka-consumer-example
+	url = https://github.com/punneng/kotlin-kafka-consumer-example
