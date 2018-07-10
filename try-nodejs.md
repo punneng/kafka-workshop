@@ -1,5 +1,11 @@
 # Try nodejs
 
+> $ cd ~/workshop/
+
+> $ docker-compose up
+
+-------------------------------------
+NEW SHELL
 > $ cd ~/workshop/kafka-workshop
 
 pull code from submodule
