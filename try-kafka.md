@@ -56,7 +56,7 @@ send a message
 > $ bin/kafka-console-producer.sh --broker-list localhost:9092 --topic test
 
 ---------------------------------------------
-## HELL 5
+## SHELL 5
 NEW SHELL(command + t)
 
 consume
